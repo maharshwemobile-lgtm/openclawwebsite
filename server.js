@@ -153,6 +153,25 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'OK', timestamp: new Date().toISOString() });
 });
 
+
+// GitHub webhook auto-deploy
+app.post('/webhook', (req, res) => {
+  const event = req.headers['x-github-event'] || '';
+  console.log('Webhook event:', event);
+  if (event === 'push') {
+    require('child_process').exec('/usr/local/bin/deploy-web.sh', { timeout: 30000 }, (err, stdout, stderr) => {
+      if (err) {
+        console.error('Deploy error:', stderr || err.message);
+        return res.status(500).json({ ok: false, error: stderr || err.message });
+      }
+      console.log('Auto-deploy OK');
+      res.json({ ok: true });
+    });
+  } else {
+    res.json({ ok: true, msg: 'ignored: ' + event });
+  }
+});
+
 app.listen(PORT, () => {
   console.log('Server running on port ' + PORT);
   console.log('Using Google Sheets API: ' + GOOGLE_SHEETS_API);
