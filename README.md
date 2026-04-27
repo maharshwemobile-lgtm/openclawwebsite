@@ -1,26 +1,58 @@
 # OpenClaw Website
 
-အကြှန်းဆန်အောင်သည် ဝက်ဆိုက်အသုံးပြုမှုအများဆုံးရှိသည့် ကမ္ဘာ့အပ်လီကေးရှင်းများမှ တစ်ခုဖြစ်သည်။
+ဤ repository သည် [OpenClaw](https://openclaw.ai/) AI Assistant အတွက် ရည်ရွယ်၍ ဖန်တီးထားသော Website Project (သို့မဟုတ် Landing Page) ဖြစ်ပါသည်။ 
 
-## အကြောင်းအရာ
+## 🌟 အဓိက လုပ်ဆောင်ချက်များ (Features)
+- **Responsive Design:** Mobile, Tablet နှင့် Desktop များတွင် အဆင်ပြေချောမွေ့စွာ အသုံးပြုနိုင်ခြင်း။
+- **User-Friendly Interface:** အသုံးပြုသူများအတွက် ရှင်းလင်းလွယ်ကူသော ဒီဇိုင်းရှိခြင်း။
+- **Feature 3:** (သင့် Website ၏ အခြားထူးခြားချက်တစ်ခုခုကို ဤနေရာတွင် ဖြည့်ပါ)
 
-ဤသည်မှာ OpenClaw ဝက်ဆိုက်ဖြစ်ပြီး HTML နှင့် JavaScript ကို အသုံးပြုして ပြုလုပ်ထားသည်။
+## 💻 အသုံးပြုထားသော နည်းပညာများ (Tech Stack)
+*(မိမိ Project တွင် အသုံးပြုထားသော နည်းပညာများပေါ်မူတည်၍ အောက်ပါတို့ကို ပြင်ဆင်ပါ)*
+- **Frontend:** HTML, CSS, JavaScript (သို့မဟုတ် React, Next.js, Vue စသည်)
+- **Styling:** Tailwind CSS / Bootstrap
+- **Backend (ရှိပါက):** Node.js, Express, Python
 
-## အင်္ဂါရပ်များ
+## 🚀 ထည့သွင်းအသုံးပြုနည်း (Installation & Setup)
 
-- အလှတစ်ပါပါသော ဒီজိုင်း
-- ကတ်ပြသည့် အပ်လီကေးရှင်း
-- အသုံးပြုသူမိတ်ဆက်ရန်အကျိုးရှိသည်
+သင့်စက်ထဲတွင် ဤ Project ကို Run နိုင်ရန် အောက်ပါအဆင့်များအတိုင်း လုပ်ဆောင်ပါ -
 
-## အသုံးပြုသည့်နည်းပညာ
+1. **Repository ကို Clone လုပ်ပါ:**
+   ```bash
+   git clone https://github.com/maharshwemobile-lgtm/openclawwebsite.git
+   ```
 
-- **HTML** - ဝက်ဆိုက်ဖွဲ့စည်းမှု
-- **JavaScript** - ဗွီဒီယိုအတွေ့အကြုံမြှင့်တင်ခြင်း
+2. **Project Folder ထဲသို့ ဝင်ပါ:**
+   ```bash
+   cd openclawwebsite
+   ```
 
-## မည်သည့်အရာများ ပြင်ဆင်ရန်လိုအပ်ပါသလဲ
+3. **လိုအပ်သော Packages (Dependencies) များကို Install လုပ်ပါ:**
+   ```bash
+   npm install
+   # သို့မဟုတ် yarn install
+   ```
 
-အကယ်၍ သင်သည် ဤ ပရောဂျက်ကို တည်ဆောက်ရန် သို့မဟုတ် အဆင့်မြှင့်တင်ရန် လိုအပ်ပါက လည်းကောင်း၊ ကျွန်ုပ်တို့ထံ pull request ပေးပို့နိုင်သည်။
+4. **Project ကို စတင် Run ပါ:**
+   ```bash
+   npm run dev
+   # သို့မဟုတ် npm start
+   ```
 
-## ကျေးဇူးတင်ပါသည်
+Project ကို Browser တွင် http://localhost:3000 (သို့မဟုတ် သက်ဆိုင်ရာ Port) ဖြင့် ဝင်ရောက်ကြည့်ရှုနိုင်ပါသည်။
 
-ဤ ပရောဂျက်ကို အသုံးပြုခြင်းအတွက် ကျေးဇူးတင်ပါသည်!
+## 🤝 ပါဝင်ကူညီရန် (Contributing)
+ဤ Project ကို ပိုမိုကောင်းမွန်လာစေရန် ပါဝင်ကူညီလိုပါက အောက်ပါအဆင့်များအတိုင်း လုပ်ဆောင်နိုင်ပါသည် -
+
+1. ဤ Repository ကို Fork လုပ်ပါ။
+2. Branch အသစ်တစ်ခု ဖန်တီးပါ (`git checkout -b feature/AmazingFeature`)
+3. သင်၏ ပြင်ဆင်မှုများကို Commit လုပ်ပါ (`git commit -m 'Add some AmazingFeature'`)
+4. သင်၏ Branch ကို Push လုပ်ပါ (`git push origin feature/AmazingFeature`)
+5. Pull Request (PR) တစ်ခု ဖွင့်၍ တောင်းဆိုပါ။
+
+## 📄 လိုင်စင် (License)
+ဤ Project ကို MIT License ဖြင့် ဖြန့်ဝေထားပါသည်။ (လိုအပ်ပါက သင့် Project လိုင်စင်အလိုက် ပြင်ဆင်နိုင်ပါသည်)
+
+---
+
+**မှတ်ချက်:** တကယ်လို့ သင့် Project က သာမန် HTML/CSS နဲ့ပဲ ရေးထားတာဆိုရင်တော့ `npm install` လို အဆင့်တွေကို ဖျက်ပြီး "ဖိုင်ထဲက `index.html` ကို Browser မှာ ဖွင့်ပြီး ကြည့်ရှုနိုင်ပါတယ်" လို့ ပြင်ရေးလို့ ရပါတယ်။
